@@ -1,5 +1,6 @@
 FROM ubuntu:trusty
-MAINTAINER Himasou Makwana <himasou@hotmail.com>
+
+LABEL maintainer="himasou@hotmail.com"
 
 # Prevent dpkg errors
 ENV TERM=xterm-256color
